@@ -81,3 +81,11 @@ button:hover {
   text-transform: uppercase;
   border: 5px solid;
 }
+
+h1::first-letter {
+  font=style: normal;
+  margin-right: 5px;
+}
+
+h2::first-letter {
+}
