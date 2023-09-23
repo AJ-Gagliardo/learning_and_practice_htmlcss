@@ -9,10 +9,13 @@
 } */
 
 .container {
+  /* 
   margin: 50px auto;
   width: 900px;
   padding: 20px 40px;
+  */
   border: 5px solid;
+  width: 900px;
 }
 
 .saletxt {
@@ -108,11 +111,18 @@ h1::first-letter {
 h2::first-letter {
 }
 
+.colors {
+  display: flex;
+  align-items: center;
+}
+
 .color {
   background-color: #000;
   height: 22px;
   width: 22px;
-  display: inline-block;
+  /*display: inline-block;*/
+
+  margin-right: 5px;
 }
 
 .color-black {
@@ -145,19 +155,33 @@ product detail, should be right beside each other
 .product-detail
 */
 
+.thearticle {
+  display: flex;
+  flex: 0 0 500px;
+  align-items: center;
+}
+
+.leftpart {
+  margin-right: 45px;
+  width: 300px;
+}
 .shoe-image {
-  float: left;
+  display: flex;
 }
 .general-info {
-  float: left;
   width: 250px;
-  margin-left: 45px;
+  margin-right: 45px;
 }
 
 .product-detail {
-  float: right;
+  width: 200px;
 }
 
 li {
   line-height: 200%;
 }
+
+/*
+article {
+  flex: 0 0 900px;
+} */
