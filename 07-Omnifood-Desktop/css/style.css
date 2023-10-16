@@ -116,6 +116,12 @@ body {
   margin-right: 1.6rem !important;
 }
 
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
 .grid {
   display: grid;
   gap: 9.6rem;
